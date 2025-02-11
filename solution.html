@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Corrected HTML</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text is visible.
+  </div>
+  <script>
+    // Correct way to add script functionality using DOM manipulation
+    const newScript = document.createElement('script');
+    newScript.textContent = 'console.log("This is a safe method.");';
+    document.body.appendChild(newScript);
+  </script>
+</body>
+</html>
